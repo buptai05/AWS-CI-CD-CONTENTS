@@ -4,3 +4,8 @@ os: ubuntu
 files:
   - source: /
     destination: /home/ubuntu/cicdwebcontents/
+    
+
+hooks:
+  BeforeInstall:
+  ApplicationStart:
